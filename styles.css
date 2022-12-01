@@ -43,7 +43,7 @@ li {
 }
 
 header {
-    background: linear-gradient(180deg, #4A4A4A 10.51%, rgba(53, 53, 53, 0.6) 161%), linear-gradient(180deg, rgba(53, 53, 53, 0.8) 0%, rgba(82, 96, 255, 0.8) 100%), url('../images/herobg.jpg');
+    background: linear-gradient(180deg, #4A4A4A 10.51%, rgba(53, 53, 53, 0.6) 161%), linear-gradient(180deg, rgba(53, 53, 53, 0.8) 0%, rgba(82, 96, 255, 0.8) 100%), url('images/herobg.jpg');
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
@@ -143,7 +143,7 @@ header {
 
 /* sub-hero start */
 .sub--hero{
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) -3.44%, rgba(163, 142, 28, 0.324) 111.87%, rgba(163, 142, 28, 0.144) 111.87%), url("../images/mainbg.png");
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) -3.44%, rgba(163, 142, 28, 0.324) 111.87%, rgba(163, 142, 28, 0.144) 111.87%), url("images/mainbg.png");
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
@@ -197,16 +197,17 @@ header {
 }
 
 .customer-grid {
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .customer-item {
-    width: 304px;
-    padding: 40px;
-    height: 250px;
+    padding: 50px;
+    /* width: 304px; */
+    height: 300px;
     background: #8685EF;
-    border-radius: 5px;
     margin: 20px auto;
+    gap: 10px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
