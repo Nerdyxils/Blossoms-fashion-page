@@ -339,6 +339,10 @@ header {
         padding: 70px 0;
         width:95%;
     }
+    .customer-item {
+        padding: 50px;
+        max-width: 90%;
+    }
     .hero-txt {
         margin-top: 30px;
     }
