@@ -274,7 +274,7 @@ header {
     border-color: #C9AE1F;
 }
 
-.sub-primary {
+.contact-form .sub-primary {
     /* width: 96px; */
     /* height: 32px; */
     font-size: 16px;
@@ -286,7 +286,7 @@ header {
     border-radius: 5px;
 }
 
-.sub-primary:hover {
+.contact-form .sub-primary:hover {
     background-color: transparent;
     border: 1px solid #C9AE1F;
     border-color: #C9AE1F;
