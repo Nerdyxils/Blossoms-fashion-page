@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Rasa:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto+Slab:wght@600;700;800;900&display=swap');
+* {
+    padding:0;
+    margin:0;
+    font-size: 18px;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* list-style: none; */
+    font-family: 'Rasa', serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 90%;
+    padding: 100px 0;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 50px;
+    color: #fff;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    
+}
+
+p {
+    font-size: 16px;
+}
+
+li {
+    font-size: 16px;
+}
+
+header {
+    background: linear-gradient(180deg, #4A4A4A 10.51%, rgba(53, 53, 53, 0.6) 161%), linear-gradient(180deg, rgba(53, 53, 53, 0.8) 0%, rgba(82, 96, 255, 0.8) 100%), url('../images/herobg.jpg');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    height: 100%;
+}
+
+
+/* NAV BAR CSS START */
+.navbar-nav {
+    margin-top: 5px;
+}
+
+.nav-item {
+    font-family: 'Rasa', serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    color: #C9AE1F;
+}
+
+.nav-item a {
+    color: #C9AE1F;
+}
+
+.nav-item a:hover {
+    color: #8685EF;
+}
+
+.nav-item a .active {
+    color: #8685EF !important;
+}
+
+.btn-outline-success {
+    margin: 5px;
+    color: #C9AE1F;
+    border-color: #C9AE1F;
+}
+
+.btn-outline-success:hover {
+    margin: 5px;
+    color: #fff;
+    border-color: #8685EF;
+    background-color: #8685EF;
+}
+
+.add-bg {
+    background-color: #C9AE1F;
+    color: #353535;
+}
+
+.add-bg:hover {
+    border-color: #8685EF;
+    color: #8685EF;
+    background-color: transparent;
+}
+
+/* HERO CONTENT CSS START */
+.hero-img img {
+    max-width: 100%;
+}
+.hero-txt {
+    align-self: center;
+    color: #fff;
+}
+
+
+
+.hero-txt p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: justify;
+    letter-spacing: 0.15px;
+}
+
+.buy-btn {
+    background-color: #C9AE1F;
+    border-radius: 5px;
+    border:none;
+    font-size: 16px;
+    padding: 0.2em 1em;
+    width:96px;
+}
+
+.buy-btn:hover {
+    background-color: transparent;
+    border: 1px solid #C9AE1F;
+    border-color: #C9AE1F;
+    color: #C9AE1F;
+    font-size: 16px;
+    padding: 0.2em 1em;
+}
+
+
+/* sub-hero start */
+.sub--hero{
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) -3.44%, rgba(163, 142, 28, 0.324) 111.87%, rgba(163, 142, 28, 0.144) 111.87%), url("../images/mainbg.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    height: 100vh;
+    color: #fff;
+}
+
+.sub--hero h3 {
+    color: #8685EF;
+}
+
+.list--why {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0.15px;
+}
+
+.why button {
+    font-size: 16px;
+}
+
+/* clients section */
+.clients {
+    background-color: #F5F5F5;
+}
+
+.clients h3 {
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 400;
+}
+
+.client-item {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.client--txt {
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #353535;
+}
+
+.customers {
+    margin-top: 100px;
+}
+
+.customer-grid {
+    margin-top: 50px;
+}
+
+.customer-item {
+    width: 304px;
+    padding: 40px;
+    height: 250px;
+    background: #8685EF;
+    border-radius: 5px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.cus-name {
+    margin-left: 10px;
+}
+
+.cus-name>p{
+    margin-bottom: 0;
+}
+
+.comment-cust {
+    font-weight: 700;
+    font-size: 16px;
+    /* line-height: 24px; */
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: #F0F0F0;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.qt {
+    font-family: 'Roboto Slab', serif;
+    transform: rotate(-180deg);
+    position: absolute;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+    margin-bottom: -20px;
+    line-height: 0;
+    color: #F0F0F0;
+}
+
+.qt-1 {
+    font-family: 'Roboto Slab', serif;
+    transform: rotate(360deg);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    position: absolute;
+    line-height: 64px;
+    text-align: center;
+    color: #F0F0F0;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 600px) {
+    .hero-img {
+        width: 100%;
+    }
+}
