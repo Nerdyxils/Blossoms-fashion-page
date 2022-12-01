@@ -179,7 +179,7 @@ header {
 }
 
 .client-item {
-    margin: 50px auto;
+    margin: 100px auto;
     text-align: center;
 }
 
@@ -341,10 +341,10 @@ header {
     }
     .customer-item {
         padding: 50px;
-        max-width: 90%;
+        max-width: 85%;
     }
     .hero-txt {
-        margin-top: 30px;
+        margin-top: 70px !important;
     }
     .hero-img {
         width: 100%;
